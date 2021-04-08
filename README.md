@@ -10,14 +10,16 @@ The goal is to turn each element in the JSON array into a type and instance in a
    a. Install via 'npm install typescript' or 'yarn add typescript'
    b. Installation of nodemon is also necessary to run and compile javascript/typescript 'npm install nodemon' or 'yarn add nodemon'.
 
-> adhasfd
+
 
 2. Sample JSON data was provided.
    a. 'tsc --init' is used to create a default tsconfig.json file. "resolveJsonModule": true is added to "compilerOptions" {
 
    }
 
-   use: tsc --resolveJsonModule --esModuleInterop --allowSyntheticDefaultImports true saic.ts && node saic.js
+   use:
+   > tsc --resolveJsonModule --esModuleInterop --allowSyntheticDefaultImports true saic.ts && node saic.js
+   > 
    with these flags to ensure typescript reads json data correctly as a module.
 
 3. In order to have unique classes, children had to inherit from parent Animal class. The constructor for Animal automatically takes care of assigning itself with the correct properties.
