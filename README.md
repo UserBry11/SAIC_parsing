@@ -13,9 +13,10 @@ The goal is to turn each element in the JSON array into a type and instance in a
 
 
 2. Sample JSON data was provided.
-   a. 'tsc --init' is used to create a default tsconfig.json file. "resolveJsonModule": true is added to "compilerOptions" {
+   a. 'tsc --init' is used to create a default tsconfig.json file. "resolveJsonModule": true is added to "compilerOptions" {}
+   >   "compilerOptions": {
 
-   }
+   > "resolveJsonModule": true,
 
    use:
    > tsc --resolveJsonModule --esModuleInterop --allowSyntheticDefaultImports true saic.ts && node saic.js
