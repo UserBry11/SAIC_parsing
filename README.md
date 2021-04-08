@@ -17,7 +17,7 @@ The goal is to turn each element in the JSON array into a type and instance in a
    >   "compilerOptions": {
 
    > "resolveJsonModule": true,
-
+   > }
    use:
    > tsc --resolveJsonModule --esModuleInterop --allowSyntheticDefaultImports true saic.ts && node saic.js
    > 
