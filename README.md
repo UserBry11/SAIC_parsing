@@ -7,7 +7,7 @@ The goal is to turn each element in the JSON array into a type and instance in a
 ## Getting Started
 
 1. Installation of typescript is necessary.
-   a. Install via 'npm install typescript' or 'yarn add typescript'
+   a. Install via _'npm install typescript'_ or *'yarn add typescript'*
    b. Installation of nodemon is also necessary to run and compile javascript/typescript 'npm install nodemon' or 'yarn add nodemon'.
 
 
